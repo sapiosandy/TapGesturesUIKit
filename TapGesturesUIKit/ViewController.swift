@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     @IBAction func twoTapGesture(_ sender: UITapGestureRecognizer) {
         myView.backgroundColor = UIColor.yellow
     }
+    @IBAction func longPressGesture(_ sender: UILongPressGestureRecognizer) {
+        myView.backgroundColor = UIColor.white
+    }
     
 }
 
